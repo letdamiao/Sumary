@@ -7,7 +7,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
-
+/>
+<link rel="icon" 
+type="image/png"
+sizes="32x32"
+href="./assets/images/favicon-32x32.png">
   
   <title>Results sumary componet</title>
 <link rel="stylesheet" href="./style.css">
@@ -18,8 +22,24 @@
   
   <div class="container">
     <main>
-      <article>Your Result</article>
-      <section>sumary</section>
+      <article class="Result">
+        <h3>Your Result</h3>
+     
+      <p class="Result-points"><span>76</span>of 100</p>
+      <p class="Result-feedback">Great</p>
+      <p class="result-description">You scored higher 65% of the people have taken thess tests</p>
+    </article>
+      <section class="summary">
+      <h3>Summary</h3>
+      <div class="summary-box">
+        <article class="summary-info">
+        <img src="assets/images/icon-reaction.svg" alt="">
+        <p>reaction</p>
+      </article>
+      <h5 class="summary-calc"><span>80</span>100</h5>
+      </div>
+      <button>Continue</button>
+    </section>
     </main>
   </div>
     <script src="./index.js"> </script>
